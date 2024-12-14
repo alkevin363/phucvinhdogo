@@ -1,0 +1,401 @@
+body{
+	width:1000px;
+	height:1000px;
+	margin:auto;
+	}
+/* Css banner */
+.Banner{
+	background-image:url(../image/banner.gif);
+	width:1000px;
+	height:200px;
+	}
+/* Css menu */
+.Menu-nav{
+	width:1000px;
+	height:32px;
+	background-image:url(../image/thanhngang.jpg);
+	}
+.Menu-nav ul{
+	float:right;
+	margin:0px;
+	padding:0px;
+	}
+.Menu-nav ul li{
+	float:right;
+	display:block;
+	list-style:none;
+	}
+.Menu-nav ul li a{
+	}
+/* Css content */
+.Content{
+	width:1000px;
+	height:900px;
+	
+	}
+.Content-left{
+	width:200px;
+	height:900px;
+	background:#FF9600;
+	float:left;
+	}
+/* Css menu 1*/
+#Menu{
+	padding-right: 50px; 
+}
+.Menu-nav #Menu li a{
+	font-weight: 900;
+	font-style: italic;
+	color: aliceblue;
+	height: 32px;
+	line-height: 32px;
+}
+.Menu-nav #Menu li{
+	padding: 0px 10px 0px 10px;	
+}
+.Menu-nav #Menu li:hover {
+  transition: ease in 0.5s;
+    -moz-transition: ease in 0.5s;
+    -webkit-transition: ease in 0.5s;
+    background: #7416F9;
+}
+
+
+/* Css menu 2 */
+ul#menu2 {
+    list-style-type: none;
+	padding: 0px;
+}
+
+ul#menu2::marker {
+    content: '';
+    display: none;
+}
+a:-webkit-any-link { 
+	height: 50px;
+    line-height: 50px;
+	text-decoration: none !important;
+}
+ul#menu2 li:hover{
+	transition: ease in 0.5s;
+    -moz-transition: ease in 0.5s;
+    -webkit-transition: ease in 0.5s;
+    background: #7416F9;
+}
+ul#menu2 li a{
+	padding-left: 20px;
+	color: aliceblue;
+}
+ul#menu2 li{
+	padding-left: 10px;
+}
+ul#menu2 li a:hover{
+	transition: ease in 0.5s;
+    -moz-transition: ease in 0.5s;
+    -webkit-transition: ease in 0.5s;
+    background: #7416F9;
+}
+/* Text menu 2*/
+.textsp{
+	text-align: center;
+	color: aliceblue;
+}
+.textgt {
+	color: #FFFFFF;
+}
+/* Css content center */
+.Content-center{
+	width:600px;
+	height:900px;
+	float:left;
+	}
+/*Css Product content */
+.content-center-1{
+	width:600px;
+	height:300px;
+	float:right;
+	}
+.content-center-2{
+	width:600px;
+	height:300px;
+	}
+/* Hàng sản phẩm 1 */
+.product-1{
+	width: 180px;
+	height: 300px;
+	float: left;
+	
+}
+.product-2{
+	width: 180px;
+	height: 300px;
+	float: left;
+	padding-left: 30px;
+}
+.product-3{
+	width: 180px;
+	height: 300px;
+	float: right;
+}
+/* Hàng sản phẩm 2*/
+.product-4{
+	width: 180px;
+	height: 300px;
+	float: left;
+	
+}
+.product-5{
+	padding-left: 30px;
+	width: 180px;
+	height: 300px;
+	float: left;
+}
+.product-6{
+	width: 180px;
+	height: 300px;
+	float: right;
+}
+/* Hàng sản phẩm 3*/
+.product-7{
+	width: 180px;
+	height: 300px;
+	float: left;
+	
+}
+.product-8{
+	padding-left: 30px;
+	width: 180px;
+	height: 300px;
+	float: left;
+}
+.product-9{
+	width: 180px;
+	height: 300px;
+	float: right;
+}
+
+/* Css Products list */
+
+        .products-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+			
+        }
+        .product-item {
+            width: 180px;
+			height: 300px;
+            text-align:center;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+		
+			
+        .product-item img {
+            width: 180px;
+            height: 220px;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 10px;
+			transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+		.products-item img:hover{
+			transform: scale(1.1);
+		}
+        .product-name {
+			text-align: left;
+			margin: 0px;
+			width: 180px;
+			height: 40px;
+			color: #000;
+            font-weight: bold;
+			float:left;
+        }
+		.product-sp{
+			text-align: left;
+			width: 180px;
+			height: 40px;
+			color: #00F;
+			margin: 0px;
+			font-weight: bold;
+			float: left;
+		}
+		.product-name2 {
+			text-align: center;
+			margin: 0px;
+			width: 180px;
+			height: 40px;
+			color: #000;
+            font-weight: bold;
+			float:left;
+        }
+		.product-sp2{
+			text-align: center;
+			width: 180px;
+			height: 40px;
+			color: #00F;
+			margin: 0px;
+			font-weight: bold;
+			float: left;
+		}
+		.img-product-top{
+			width: 180px;
+			height: 220px;
+			float:left;
+		}
+		.text-product-bottom{
+			width: 180px;
+			height: 80px;
+			float:left;
+			
+		}
+		.text-center{
+			text-align:center;
+			}
+		
+			
+/* Content right */
+.Content-right{
+	width:200px;
+	height:900px;
+	float:right;
+	}
+.online{
+	padding:0px 10px 0px 40px;
+	}
+.footer{
+	width:1000px;
+	height:100px;
+	background:#FC0;
+	text-align:right;
+	float:left;
+	}
+/*form*/
+table{
+	width:200px;
+	}
+#frm1{
+	margin:auto;
+	}
+#frm1 > p{
+	display: grid;
+	}
+#frm1 .txt{
+	padding: 8px; border:1px solid #000;
+	}
+#frm1 #baoloi{
+	background:#000;
+	color:#FFF;
+	text-align:center;
+	}
+#frm1 .loi{
+	padding:6px; border:1px solid red; background:#FC0;}
+
+/* Css Service */
+.img-service img{
+	display: flex;
+	justify-content: center;
+	width: 500px;
+	height: 200px;
+	align-items: center;
+	padding: 20px 50px 0px 50px ;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.img-service img:hover{
+	transform: scale(1.1);
+	
+}
+.most-product{
+	margin-top: 0px;
+	width: 600px;
+	height: 50px;
+	background-color:#FF9600;
+	margin-bottom: 10px;
+}
+.most-product h2{
+	padding: 10px 0px 10px 0px;
+	color:#FFFFFF	;
+	text-align: center;
+}
+.text-content-center {
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+	text-align:center;
+	margin: 0px 50px 0px 50px;
+	max-width: 90%;
+}
+
+.text-content-center h3 {
+	color: #FF9600;
+}
+.text-content-center strong {
+	color:#FF9600;
+}
+.text-content-center ul{
+	text-decoration: none ;
+	list-style: none;
+
+}
+/* Css contact page */
+.contact-info{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.contact-button{
+	padding-top: 10px;
+	text-align: center;
+}
+/* Trang con */
+.Product-padding{
+padding: 50px 0px 50px 0px;
+}
+.text-sanphamhot strong{
+	color: #FF9600;
+	font-size: large;
+}
+.text-sanphamhot marquee{
+	color: #FF9600;
+	padding: 10px 0px 10px 0px;
+}
+.text-sanphamhot img{
+	width: 50px;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+}
+.product-item{
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-item:hover{
+	transform: scale(1.05);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.footer strong{
+	color: #FFFFFF;
+	text-align: center;
+}
+.footer p{
+	color: #FFFFFF;
+	text-align: center;
+}
+.footer:hover{
+	background-color: #7416F9;
+	color: #FFFFFF;
+}
+.most-product:hover{
+		background-color: #7416F9;
+		color: #FFFFFF;
+}
+
+#frm1{
+	content: center;
+	margin-left: 10px;
+}
+.Content-right img{
+	align-self: center;
+	justify-content: center;
+	margin-left: 10px;
+}
+.Content-right img:hover{
+	transform: scale(1.1);
